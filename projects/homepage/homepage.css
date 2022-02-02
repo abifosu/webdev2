@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(189, 223, 189);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    margin: 3rem;
+    padding: 8rem 5rem;
+    min-height: 80vh;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(37, 43, 37);
+    font-family: 'Source Serif Pro', serif;
+}
+
+h2{
+    margin-top: 2rem;
+}
+p{
+    
+    margin:.8em 0;
+}
+img{
+    width: 100%;
+}
+
+
+
+main{
+    margin: 5em 0;
+    padding: .7rem;
+}
+
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(37, 43, 37);
+}
+
+
+
+
+/*@media only screen and (min-width: 1028px){
+
+
+
+}*/
+
