@@ -34,7 +34,18 @@ img{
     width: 100%;
 }
 
+li{
+    list-style: none;
+    padding: 1rem;
+    margin-left: -2px;
+}
+a{
+    color: rgb(34, 52, 33);
+}
 
+a:hover{
+    color: lightsalmon;
+}
 
 main{
     margin: 5em 0;
