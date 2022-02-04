@@ -57,6 +57,7 @@ main{
 
 footer{
     text-align: center;
+    padding: ;
     background-color: rgb(37, 43, 37);
 }
 
@@ -70,9 +71,18 @@ footer{
         padding: 2rem 4rem;
     }
 
-.abi{
-    width: 45%;
-}
+
+    .bio{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2px;
+    }
+
+    .abi{
+        width: 85%;
+          grid-column: 1 / 2;
+
+        }
 
 }
 
