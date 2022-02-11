@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --subTitle-color:black;
+    --paragrapgy-color:black;
+    --headingTwo:white;
+}
+
+.heading{
+    background-color: black;
+    color: aliceblue;
+}
+
+nav{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0.5em;
+
+}
+.menu-parent{
+    margin: .5em 9em;
+}
+a{
+    color: rgb(255, 119, 0)
+    ;
+    list-style: none;
+}
+h1,h3,p{
+    margin: .5em 2rem;
+}
+
+h2{
+     margin: 0 2rem;
+     padding-top: .6em;
+}
+
+section{
+    margin-top: 2rem;
+}
+footer{
+    margin-top:.5em;
+    text-align: center;
+    padding: .5em;
+    background: paleturquoise;
+}
+
+@media only screen and (min-width: 1020px){
+
+ 
+    nav{
+        margin: .5em 5em;
+    }
+
+    h1,h3,p{
+        margin: .5em 9rem;
+    }
+    section{
+        margin-top: 2em 
+}
+}
