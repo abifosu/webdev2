@@ -26,10 +26,11 @@ header{
 h2{
     margin-top: 2rem;
 }
+
 p{
-    
     margin:.8em 0;
 }
+
 img{
     width: 100%;
 }
@@ -39,6 +40,7 @@ li{
     padding: 1rem;
     margin-left: -2px;
 }
+
 a{
     color: rgb(34, 52, 33);
 }
@@ -51,9 +53,6 @@ main{
     margin: 5em 0;
     padding: .7rem;
 }
-
-
-
 
 footer{
     text-align: center;
