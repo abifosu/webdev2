@@ -32,7 +32,9 @@ img{
 nav{
     background-color: coral;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 ul{
