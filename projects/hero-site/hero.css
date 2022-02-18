@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(245, 223, 148);
+    background-color: rgb(245, 226, 148);
 }
 
 .hero{
@@ -19,9 +19,40 @@ body{
     background-size: cover;
     min-height: 90vh;
 }
+
 header{
-   color:whitesmoke;
-    margin: 2rem;
-   
+    color:whitesmoke;
+    margin: 2rem; 
 }
 
+img{
+    width: 100%;
+}
+
+nav{
+    background-color: coral;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+main{ 
+     margin: 3rem;
+     padding: 1rem;
+}
+
+section{
+     padding: 2rem;
+}
+
+p{
+  padding: 2em 0;  
+}
+
+footer{
+     text-align: center;
+ }
