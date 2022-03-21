@@ -23,6 +23,7 @@ body{
 header{
     color:whitesmoke;
     margin: 2rem; 
+   
 }
 
 img{
@@ -35,6 +36,9 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
+    position: fixed;
+    z-index: 1;
+    width:100vw;
 }
 
 ul{

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --c1: ;
+    --c2:;
+    --c3:;
+    --short:;
+    --c4:;
+    --c5:v
+}
+body{
+    font-family: 'Rozha One', serif;
+}
+header{
+    background-color: azure;
+}
+section{
+    height:100vh;
+    border: 2px solid red;
+    display: grid;
+    place-items: center;
+    font-size: clamp(1rem, 1rem + 2vw, 3rem);
+    position: sticky;
+}
+
+.short{
+    background-color: black;
+    color:whitesmoke;
+    height:30vh;
+}
+
+.c1{
+    background: var(--c1);
+}

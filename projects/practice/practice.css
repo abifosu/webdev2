@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --title:blue;
+    --second:yellow;
+    --max-width:40ch;
+}
+
+h1,h2{
+    color:var(--title);
+    max-width: var(--max-width);
+}
+
+p{
+    --spacing:3em;
+    background-color: aqua;
+    margin: var(--spacing);
+    padding: var(--spacing);
+}

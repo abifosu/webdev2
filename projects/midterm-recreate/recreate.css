@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    /*font-size: clamp(1rem, .5rem + 1vw, 4rem);*/
+}
+
+.can{
+    display: grid;
+    place-items: center;
+    position: sticky;
+    top: 0;
+}
+
+article{
+   min-height: 45vh;
+}
+
+section{
+    min-height: 100vh;
+    /*display: grid;
+    position: sticky;*/
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 112px;
+    padding: .2rem;
+    text-align: left;
+}
+
+.home{
+    color: white;
+    background-color: black;
+    padding: 2.5rem;
+}
+
+#name{
+    font-size: 2rem;
+    letter-spacing: 2rem;
+    margin-top: 3rem;
+}
+
+.p1{
+    background-color: whitesmoke;
+    margin-top: -3rem;
+}
+
+.float1{
+   margin: 2.5rem 2.5rem ;
+}
+
+.message{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    margin-bottom: 13rem;
+    margin-left: 3em;
+    padding: 1.5rem 1.5rem;
+    line-height: 1.4rem;
+    background-color: whitesmoke;
+}
+
+.cards{
+    margin-bottom: 10em;
+}
+
+.pics img{
+    border-radius: 10%;  
+}
+
+.red{
+    background-color: rgb(245, 111, 87);
+}
+
+.p2{
+    background-color: rgb(245, 111, 87);
+    margin-top: -7em;
+}
+
+.bw{
+    width: 50%;
+}
+
+
+
+/*    font-size: clamp(2rem, 2rem + 1vw, 4rem);
+*/
