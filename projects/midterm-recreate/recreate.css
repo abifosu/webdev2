@@ -36,7 +36,7 @@ p{
     line-height: 1.4;
 }
 
-a{
+a .tags{
     text-decoration: none;
     color: black;
     border: 2px solid rgb(0, 0, 0);
@@ -97,7 +97,10 @@ a{
     width: 50%;
 }
 
-
+footer{
+    text-align: center;
+    padding: 3rem;
+}
 
 /*    font-size: clamp(2rem, 2rem + 1vw, 4rem);
 */
